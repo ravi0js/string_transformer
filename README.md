@@ -33,5 +33,5 @@ To get started with the String Transformers project, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-  [ git clone https://github.com/your-username/string-transformers.git](https://github.com/ravi0js/string_transformer.git)
-   cd string-transformers
+ https://github.com/ravi0js/string_transformer.git
+   ```
