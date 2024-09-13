@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* Default font size for desktop (1rem = 16px) */
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 14px; /* Smaller font size for mobile devices (1rem = 14px) */
+  }
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 1rem; /* Add some padding to avoid text touching screen edges */
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem; /* 16px on desktop, 14px on mobile */
+}
+
+.transformed-output {
+  font-size: 1.2rem; /* Adjusts with rem, will be smaller on mobile */
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: beige;
+  position: relative;
+  text-align: left;
+  border-radius: 0.5rem;
+}
+
+.transformed-output label {
+  font-size: 0.75rem; /* 12px on desktop, slightly smaller on mobile */
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  background-color: black;
+  color: white;
+  padding: 0.25rem;
+}
+
+button.copy-btn {
+  position: absolute;
+  right: 1rem;
+  padding: 0.5rem;
+  background-color: #606163;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.copy-btn:hover {
+  background-color: #0056b3;
+}
+
+button.copy-btn:active {
+  background-color: #004080;
+}
+
+@media (max-width: 600px) {
+  .transformed-output {
+    font-size: 1rem; /* Reduce font size for mobile for better readability */
+    margin: 1rem 0;
+    padding: 0.75rem;
+  }
+
+  button.copy-btn {
+    font-size: 0.9rem; /* Slightly smaller button text on mobile */
+    padding: 0.4rem;
+  }
+
+  input {
+    font-size: 0.9rem; /* Smaller input font size for mobile */
+  }
+}
