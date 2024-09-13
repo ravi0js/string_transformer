@@ -26,12 +26,15 @@ Users can input a sentence or string with spaces, and the application will displ
 - `style.css`: The stylesheet for styling the application.
 - `script.js`: The JavaScript file that handles the transformation logic and interactions.
 
+
 ## Getting Started
 
 To get started with the String Transformers project, follow these steps:
 
-1. **Clone the Repository**
+**Clone the Repository**
 
    ```bash
     https://github.com/ravi0js/string_transformer.git
 
+
+## Link: https://ravi0js.github.io/string_transformer/
